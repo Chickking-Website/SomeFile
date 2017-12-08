@@ -1,0 +1,8 @@
+Bash:
+
+PS1="\[\e[33m\]\u\[\e[31m\]@\[\e[35m\]\h \[\e[36m\]\W\[\e[34m\]$\[\e[0;39m\] "
+
+Oh-My-Zsh:
+Zsh-Theme: dpoggi
+
+alias ls='ls -F --color=auto'
