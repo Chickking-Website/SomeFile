@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>API Demo</title>
+    <link rel="stylesheet" href="https://static.chickger.pw/lib/bootstrap3/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<form action="https://api.imvictor.tech/php-api/v5/equation" style="text-align: center;">
+    <p>TeX:</p>
+    <textarea name="tex" style="width: 80%; height: 10em; font-family: monospace;"></textarea>
+    <p>类型: </p>
+    <select name="type">
+        <option value="svg">SVG</option>
+        <option value="png">PNG</option>
+        <option value="html">纯 HTML</option>
+        <option value="htmlcss">HTML</option>
+        <option value="pdf">PDF</option>
+        <option value="ps">PostScript</option>
+    </select>
+    <p>DPI (PNG Only): </p><input type="number" name="dpi" value="128"></input>
+    <br><br>
+    <input type="submit" value="Submit"/>
+</form>
+<script src="https://static.chickger.pw/lib/jquery.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://static.chickger.pw/lib/bootstrap3/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
